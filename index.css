@@ -91,3 +91,12 @@ body {
     margin: 0;
     font-size: 12px;
 }
+
+
+/* main-image section styles */
+
+.main-image {
+    display: block;
+    width: 375px;
+    height: 375px;
+}
