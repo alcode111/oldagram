@@ -51,3 +51,43 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+/* main */
+/* name-location section styles */
+
+.name-location-container {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+}
+
+.avatar-van-gogh-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-van-gogh {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-location-small-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.painter-name {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.painter-location {
+    margin: 0;
+    font-size: 12px;
+}
