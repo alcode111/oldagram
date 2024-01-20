@@ -143,3 +143,10 @@ body {
     cursor: pointer;
     opacity: 0.5;
 }
+
+
+/* --- JavaScript class to separate the posts rendered dynamically --- */
+
+.post-margin-bottom {
+    margin-bottom: 20px;
+}
