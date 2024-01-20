@@ -22,7 +22,7 @@ body {
 }
 
 
-/* Header styles */
+/* header styles */
 
 .header-container {
     display: flex;
@@ -99,4 +99,47 @@ body {
     display: block;
     width: 375px;
     height: 375px;
+}
+
+/* bottom-section styles */
+
+.bottom-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 10px;
+}
+ 
+
+.three-icons-container {  /* icons styles */
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+}
+
+
+.likes-number {  /* likes styles */
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.name {  /* comments styles */
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.comment {
+    font-size: 12px;
+}
+
+.heart:hover,  /* hover effects */
+.bubble:hover,
+.dm:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
