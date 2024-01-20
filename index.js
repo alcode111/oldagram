@@ -73,5 +73,14 @@ for (let i = 0; i < posts.length; i++) {
     </section>
 </main>
     `
+    // Add an event lister on the heart icon to increase the number of likes
+
+    const heartLikeIcon = oldaPost.querySelector('.heart')
+    heartLikeIcon.addEventListener('click', function() {
+        posts[i].likes++
+    const likesNumberDiv = oldaPost.querySelector('.likes-number')
+    likesNumberDiv.textContent = `${posts[i].likes} likes`
+    }) 
+
     postContainer.append(oldaPost)
 }
