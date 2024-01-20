@@ -32,6 +32,8 @@ const postContainer = document.getElementById("post-container")
 
 for (let i = 0; i < posts.length; i++) {
     const oldaPost = document.createElement("div")
+    oldaPost.classList.add("post-margin-bottom")
+
     oldaPost.innerHTML = 
     `
     <header>
@@ -44,7 +46,7 @@ for (let i = 0; i < posts.length; i++) {
 <main>
     <section class="name-location">
         <div class="container name-location-container">
-            <span class="avatar-van-gogh-container"><img src="${posts[i].avatar}" alt="avatar of van gogh" class="avatar-van-gogh"></span>
+            <span class="avatar-container"><img src="${posts[i].avatar}" alt="${posts[i].name}'s avatar" class="avatar"></span>
             <div class="name-location-small-container">
                 <p class="painter-name">${posts[i].name}</p>
                 <p class="painter-location">${posts[i].location}</p>
