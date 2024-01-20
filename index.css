@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Billabong', sans-serif;
+    src: url('Billabong.ttf');
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    margin: 0;
+}
+
+.container {
+    width: 375px;
+    background-color: #FFFFFF;
+}
