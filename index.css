@@ -62,12 +62,12 @@ body {
     padding: 10px;
 }
 
-.avatar-van-gogh-container {
+.avatar-container {
     display: flex;
     align-items: center;
 }
 
-.avatar-van-gogh {
+.avatar {
     width: 34px;
     height: 34px;
     border-radius: 50%;
