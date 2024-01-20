@@ -101,6 +101,10 @@ body {
     height: 375px;
 }
 
+.main-image:hover {
+    cursor: pointer;
+}
+
 /* bottom-section styles */
 
 .bottom-section-container {
